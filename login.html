@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vivi Verde - Inicio</title>
+    <title>Vivi Verde - Iniciar Sesión</title>
     <link rel="stylesheet" href="styles.css"> <!-- Enlaza tu hoja de estilos CSS aquí -->
 </head>
 <body>
     <header>
         <nav class="navbar">
             <div class="logo">
-                <h1>Vivi Verde</h1>
+                <li><a href="index.html"><h1>Vivi Verde</h1></a></li>
             </div>
             <ul class="nav-links">
                 <li><a href="login.html">Iniciar sesión</a></li>
@@ -19,12 +19,18 @@
         </nav>
     </header>
     <main>
-        <section class="hero">
-            <h1>Bienvenido a Vivi Verde</h1>
-            <p>Tu plataforma para un estilo de vida sostenible</p>
-            <a href="register.html" class="cta-button">Regístrate</a>
-        </section>
-        <!-- Aquí puedes agregar más contenido de la página de inicio -->
+        <div class="container">
+            <h2>Iniciar Sesión en Vivi Verde</h2>
+            <form action="#" method="POST">
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+
+                <label for="contrasena">Contraseña:</label>
+                <input type="password" id="contrasena" name="contrasena" required>
+
+                <button type="submit" class="cta-button">Iniciar Sesión</button>
+            </form>
+        </div>
     </main>
     <footer>
         <div class="social-links">
