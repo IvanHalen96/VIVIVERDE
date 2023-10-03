@@ -1,12 +1,21 @@
-import express from 'express';
+const express = require('express');
 const router = express.Router();
+class LoginRouter {
+constructor() {}
 
-router.get('/login', async (req, res, next) => {
-  return res.json({
-    render: "done"
+getRouters() {
+  router.get('', async (req, res, next) => {
+    return res.json({
+      render: "done"
+    });
+  })
+  router.get('/test', async (req, res, next) => {
+    return res.json({
+      name: "John",
+      age: 21
+    });
   });
-});
-
-
-
-export { router };
+  return router
+}
+}
+module.exports = LoginRouter;
