@@ -54,3 +54,5 @@ connection.on('connect', function(err) {
 });
 
 connection.connect();
+
+//https://learn.microsoft.com/es-es/sql/connect/node-js/step-3-proof-of-concept-connecting-to-sql-using-node-js?view=sql-server-ver16
