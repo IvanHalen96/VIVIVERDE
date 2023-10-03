@@ -1,5 +1,14 @@
 {
+  "scripts": {
+    "start-front": "http-server -p 8080",
+    "start-back": "node ./back-end/server.js",
+    "db-migrate": "knex migrate:latest --knexfile back-end/db/database.js",
+    "db-rollback": "knex migrate:rollback --knexfile back-end/db/knexfile.js"
+  },
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "http-server": "^14.1.1",
+    "knex": "^2.5.1",
+    "mysql": "^2.18.1"
   }
 }

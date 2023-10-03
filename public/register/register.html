@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vivi Verde - Registrarse</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./register.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="./register.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container mt-5">
+        <div class="row d-flex">
+            <div class="col-12 justify-content-center">
+                <div class="card">
+                    <div class="card-header d-flex justify-content-center">
+                        Register
+                    </div>
+                    <div class="card-body">
+                        <div class="container mt-5">
+                            <form class="d-flex row">
+                                <div class="col-12">
+                                    <div class="mb-3 mt-3">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control" id="username" placeholder="Username"
+                                                required>
+                                            <label for="username">Username</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="mb-3 mt-3">
+                                        <div class="form-floating">
+                                            <input type="email" class="form-control" id="email" required 
+                                                placeholder="name@example.com" required>
+                                            <label for="email">Email</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 justify-content-center">
+                                    <div class="mb-3 mt-3">
+                                        <div class="form-floating">
+                                            <input type="password" class="form-control" id="password" placeholder="Password" required 
+                                            minlength="8" 
+                                            pattern="^(?=.*[A-Z])(?=.*\d).+" 
+                                            title="Al menos 8 caracteres , una mayuscula y un numero">
+                                            <label for="password">Password</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-center d-flex justify-content-center">
+                                    <button type="submit" class="btn btn-primary ">Register</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
