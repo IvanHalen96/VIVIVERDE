@@ -1,13 +1,12 @@
-
-.login-container {
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #ffffff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-    text-align: center;
+.custombg{
+    background: rgb(117,191,105);
+    background: linear-gradient(90deg, rgba(117,191,105,1) 2%, rgba(89,133,108,1) 35%, rgba(84,183,205,1) 76%, rgba(45,45,45,1) 100%);
+    padding: 10%;
 }
+.custom-height{
+    height: 75vh;
+}
+
 
 .login-container img {
     width: 150px;
@@ -15,3 +14,13 @@
     border-radius: 50%;
     margin-bottom: 20px;
 }
+
+.navbar{
+    background: rgb(117,191,105);
+    background: linear-gradient(90deg, rgba(117,191,105,1) 2%, rgba(89,133,108,1) 17%, rgba(12,148,51,1) 94%);
+}
+.greenbbg{
+    background: rgb(117,191,105);
+    background: linear-gradient(90deg, rgba(117,191,105,1) 2%, rgba(89,133,108,1) 17%, rgba(12,148,51,1) 94%);
+}
+
