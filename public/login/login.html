@@ -42,7 +42,7 @@
       <div class="col-md-6  custombg login-container">
         <img src="../resources/viviverde.png" alt="Logo">
         <h2>Login</h2>
-        <form onsubmit="submitHadler(event)">
+        <form onsubmit="submitHadler(event);return false">
           <div class="form-floating mb-3">
             <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
             <label for="floatingInput">Email address</label>
@@ -51,7 +51,7 @@
             <input type="password" class="form-control" id="password" placeholder="Password" required>
             <label for="floatingPassword">Password</label>
           </div>
-          <button type="submit" class="btn btn-primary mt-3" id="login">Login</button>
+          <button type="button" onclick="submitHandler(event)" class="btn btn-primary mt-3" id="login">Login</button>
         </form>
       </div>
     </div>

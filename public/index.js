@@ -1,8 +1,9 @@
 
 // Create an async function to make the API call
+
 async function fetchBackendData() {
   // Define the API endpoint
-  const endpoint = "http://localhost:8001/login/test";
+  const endpoint = "http://localhost:8002/login/test";
 
   // Make the API call using the fetch() function
   const response = await fetch(endpoint);
@@ -23,6 +24,6 @@ async function fetchBackendData() {
 // Do something with the backend data
 
 const funcionAwait =  async () => {
-  const backendData = await fetchBackendData();
+ // const backendData = await fetchBackendData();
 }
 funcionAwait();

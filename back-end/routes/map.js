@@ -1,15 +1,28 @@
-const express = require('express');
+import express from 'express';
 const router = express.Router();
-class MapRouter {
-constructor() {}
 
-getRouters() {
-  router.get('/map', async (req, res, next) => {
+router.get('/getAllPoints', async (req, res, next) => {
     return res.json({
-      render: "done"
+        render: "done"
     });
-  });
-  return router
-}
-}
-module.exports = MapRouter;
+});
+
+router.get('/addPoint', async (req, res, next) => {
+    return res.json({
+        render: "done"
+    });
+});
+
+router.get('/editPoint', async (req, res, next) => {
+    return res.json({
+        render: "done"
+    });
+});
+
+router.get('/delPoint', async (req, res, next) => {
+    return res.json({
+        render: "done"
+    });
+});
+
+export { router };
