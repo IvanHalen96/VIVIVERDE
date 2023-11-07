@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivi Verde - Beneficios </title>
+    <link rel="stylesheet" href="beneficiosObtenidos.css"> <!-- Enlaza tu hoja de estilos CSS aquí -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./index.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    
+</head>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/login/login.html">Iniciar sesión</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/register/register.html">Registrarse</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<body>
+    <main>
+        <div class="container">
+            <div class="row custom-height justify-content-center">
+                <div class="col-sm-10 main-container">
+                    <img src="./resources/viviverde.png" alt="Logo">
+                    <form onsubmit="submitHadler(event)">
+                        <div class="form-floating mb-3">
+                            <h1>BENEFICIOS PARA VOS</h1>
+                            <p id="parrafo">Canjea tus puntos por 
+                                todos estos beneficios y descuentos!
+                            </p>
+
+                            <div class="contenedor-des">
+                                <h2>DESCUENTOS</h2>
+                                <hr>
+                            </div>
+
+                            <!-- DESCUENTOS -->
+                            <div id="contenedor" class="clearfix">
+                                <!-- Tarjeta 1 -->
+                                <div class="tarjeta">
+                                <div class="titulo">COTO</div>
+                                <div class="contenido">
+                                    <p>25% en lacteos</p>
+                                    <a href="#">20 puntos</a>
+                                </div>
+                                </div>
+
+                                <!-- Tarjeta 2 -->
+                                <div class="tarjeta">
+                                <div class="titulo">VEA</div>
+                                <div class="contenido">
+                                    <p>10% en carnes</p>
+                                    <a href="#">5 puntos</a>
+                                </div>
+                                </div>
+
+                                <!-- Tarjeta 3 -->
+                                <div class="tarjeta">
+                                <div class="titulo">DIA</div>
+                                <div class="contenido">
+                                    <p>30% en Almacen</p>
+                                    <a href="#">20 puntos</a>
+                                </div>
+                                </div>
+                                </div>
+
+
+                                <div class="contenedor-des2">
+                                    <h2>BENEFICIOS</h2>
+                                    <hr>
+                                </div>
+                            <!-- BENEFICIOS -->
+                                <!-- Tarjeta 4 -->
+                                <div id="contenedor" class="clearfix">
+                                <div class="tarjeta">
+                                <div class="titulo">COTO</div>
+                                <div class="contenido">
+                                    <p>30% de Reintegro</p>
+                                    <a href="#">20 puntos</a>
+                                </div>
+                                </div>
+
+                                <!-- Tarjeta 5 -->
+                                <div class="tarjeta">
+                                <div class="titulo">VEA</div>
+                                <div class="contenido">
+                                    <p>10% de Reintegro</p>
+                                    <a href="#">5 puntos</a>
+                                </div>
+                                </div>
+
+                                <!-- Tarjeta 6 -->
+                                <div class="tarjeta">
+                                    <div class="titulo">DIA</div>
+                                <div class="contenido">
+                                    <p>25% de Reintegro</p>
+                                    <a href="#">20 puntos</a>
+                                </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <a href="/VIVIVERDE/public/index.html">VOLVER AL INICIO</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- Aquí puedes agregar más contenido de la página de inicio -->
+    </main>
+    <footer class="greenbbg text-black pt-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h4>Company</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h4>Follow Us</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid bg-dark text-white py-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <p class="m-0">&copy; 2023 Vivi Verde. Todos los derechos reservados.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

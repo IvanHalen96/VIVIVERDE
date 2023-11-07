@@ -25,27 +25,41 @@
     background: linear-gradient(90deg, rgba(117,191,105,1) 2%, rgba(89,133,108,1) 17%, rgba(12,148,51,1) 94%);
 }
 
-.boton {
-    
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+  }
+
+  header {
+    background-color: #0074e4;
+    color: #fff;
+    padding: 20px;
+  }
+
+  h1 {
+       padding: 10px 0px;
+  }
+
+.form-floating {
+    padding: 120px 20px;
+    font-size: 20px;
+       
+}
+
+  .puntos {
         display: flex;
         flex-direction: column;
-        margin: 70px;
-        font-size: 19px;
-        padding: 5px 50px;
+        margin: 10px 5px;
+        font-size: 25px;
+        padding: 15px 50px;
         border: 2px solid yellow;
         color: rgb(0, 0, 0);
         background: linear-gradient(to right, rgba(123, 0, 255, 0.504), rgba(200, 0, 255, 0.447));
-        transition: .3s;
-        cursor: pointer;
-      
-}
+        
+  }
 
-a:hover {
-    color:rgb(255, 234, 0);
-    text-decoration: none;
-
-}
-a{
-    color: #FFFFFF;
-    text-decoration: none !important;
-}
+  .boton {
+    color: rgb(0, 0, 0);   
+  }
